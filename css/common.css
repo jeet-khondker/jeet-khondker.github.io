@@ -8,3 +8,9 @@ html {
     min-height: 100%;
     position: relative;
 }
+
+body {
+    font-family: "Lato", "Inter", sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+}
