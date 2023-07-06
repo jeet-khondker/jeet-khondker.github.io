@@ -18,3 +18,8 @@ body {
 a {
     text-decoration: none;
 }
+
+a:hover {
+    color: #FF9A23;
+	text-decoration: none;
+}
