@@ -10,27 +10,27 @@ html {
 }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", 游ゴシック体, "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
 }
 
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #FF0000;
+  border-color: #FF9A23;
 }
 
 hr.light {
-  border-color: #fff;
+  border-color: #FFFFFF;
 }
 
 a {
-  color: #FF0000;
+  color: #FF9A23;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #FF0000;
+  color: #000000;
 }
 
 h1,
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", 游ゴシック体, "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
 }
 
 .bg-primary {
@@ -50,17 +50,125 @@ h6 {
   background-color: #212529 !important;
 }
 
+.hero-title {
+  letter-spacing: 5px;
+}
+
+.sub-hero-title {
+  font-size: 2rem !important;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
 
-section {
+/* section {
   padding: 13rem 0;
+} */
+
+section {
+  padding: 1rem 0rem 22rem 0rem;
+}
+
+.section-header {
+  margin-bottom: 50px;
+}
+
+.text-primary {
+  color: #FF9A23 !important;
+}
+
+.text-secondary {
+  color: #FFFFFF !important;
+}
+
+.text-dark {
+  color: #000000 !important;
+}
+
+.btn {
+  font-weight: 700;
+  border: none;
+  border-radius: 300px;
+  font-family: Lato, "Noto Sans JP", "游ゴシック Medium", 游ゴシック体, "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+}
+
+.btn-xl {
+  padding: 15px 25px;
+  font-size: 25px;
+  width: 75%;
+}
+
+.btn-md {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.btn-primary {
+  background-color: #FF9A23;
+  border: 3px solid #FFFFFF;
+  color: #000000;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #FF9A23;
+  background-color: #000000 !important;
+  border: 3px solid #FF9A23;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.btn-contact {
+  background-color: transparent;
+  color: #FF9A23;
+  border: 3px solid #FF9A23;
+}
+
+.btn-contact:hover {
+  background-color: #FF9A23;
+  color: #000000;
+}
+
+.btn-light {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 3px solid #FFFFFF;
+}
+
+.btn-light:hover {
+  color: #000000;
+  background-color: #FF9A23;
+  border: 3px solid #000000;
+}
+
+.btn-github {
+  background-color: #0066ff;
+  color: #fff;
+  border: 3px solid #fff;
+}
+
+.btn-github:hover {
+  color: #0066ff;
+  background-color: #fff;
+  border: 3px solid #0066ff;
+}
+
+.modal-header, .modal-body, .modal-footer {
+  background-color: #E6E6E6;
+}
+
+.intro-video {
+  width: 560px;
+  height: 345px
 }
 
 .section-heading {
   margin-top: 0;
   font-weight: bold;
+  color: #FF9A23;
 }
 
 ::-moz-selection {
@@ -93,7 +201,7 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Noto Sans JP", "游ゴシック Medium", 游ゴシック体, "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -102,11 +210,11 @@ img::-moz-selection {
   font-weight: 700;
   text-transform: uppercase;
   color: #FF0000;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Noto Sans JP", "游ゴシック Medium", 游ゴシック体, "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #FF0000;
+  color: #FF9A23;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -119,12 +227,18 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #FF0000;
+  color: #FF9A23;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #FF0000 !important;
+  color: #FF9A23 !important;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.contact.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link.contact:focus.active {
+  color: #000000 !important;
   background-color: transparent;
 }
 
@@ -133,49 +247,86 @@ img::-moz-selection {
   background-color: transparent;
 }
 
+#mainNav .navbar-nav > li.nav-item > a.nav-link.contact.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link.contact:focus.active:hover {
+  color: #000000 !important;
+  background-color: #FF9A23 !important;
+}
+
+
+
 @media (min-width: 992px) {
+
+
   #mainNav {
     border-color: transparent;
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: #FFFFFF;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #FF9A23;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
-    padding: 0.5rem 1rem;
+    /* padding: 0.5rem 1rem; */
+    padding: 0.75rem 2rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: #FFFFFF;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.contact,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.contact:focus {
+    color: #000000;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.contact {
+    color: #FF9A23;
+    border: 1px solid #FF9A23;
+    background-color: transparent;
+    border-radius: 300px;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.contact:hover {
+    color: #000000;
+    background-color: #FF9A23;
+    border: 1px solid #FFFFFF;
+    
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: #FF9A23;
   }
   #mainNav.navbar-shrink {
-    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #CCCCCC;
+    border-bottom: 1px solid rgb(33, 37, 41);
+    background-color: #000000;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #FF0000;
+    color: #EEEEEE;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #FF0000;
+    color: #FF9A23;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
+    color: #EEEEEE;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link.contact,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link.contact:focus {
+    color: #FF9A23 !important;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #FF0000;
+    color: #FF9A23;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link.contact:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link.contact:focus:hover {
+    color: #000000 !important;
+
   }
 }
 
 header.masthead {
+  position: relative;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/top-background.jpg");
@@ -183,15 +334,25 @@ header.masthead {
   background-size: cover;
 }
 
+header.masthead::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%; 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  pointer-events: none; 
+}
+
 header.masthead hr {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-/*
 header.masthead h1 {
   font-size: 2rem;
-} */
+}
 
 header.masthead p {
   font-weight: 300;
@@ -221,8 +382,22 @@ header.masthead p {
   }
 }
 
+#about {
+  background-image: url("../img/about.jpg");
+  background-position: center center;
+  background-size: cover;
+  /* height: 100vh; */
+}
+
 #services {
-  background-image: url("../img/services.jpg");
+  background-image: url("../img/services-new.jpg");
+  background-position: center center;
+  background-size: cover;
+  /* height: 100vh; */
+}
+
+#contact {
+  background-image: url("../img/contact.jpg");
   background-position: center center;
   background-size: cover;
   /* height: 100vh; */
@@ -230,17 +405,23 @@ header.masthead p {
 
 .service-box {
   max-width: 400px;
-  border: 1px solid #fff;
-  background-color: rgb(0, 0, 0, 0.7);
-  padding: 30px;
+  border: 1px solid #333333;
+  border-radius: 10px;
+  border-bottom: none;
+  background: linear-gradient(180deg, #999999, #000000);
+  padding: 40px;
 }
+
 
 .skills-box {
   max-width: 400px;
-  border: 1px solid #000;
-  background-color: rgba(83, 81, 81, 0.7);
-  padding: 30px;
-  border-radius: 10%;
+  border: 1px solid #333333;
+  border-bottom: none;
+  /* background-color: #555555; */
+  background: linear-gradient(180deg, #999999, #000000);
+  padding: 40px;
+  margin: 30px 0;
+  border-radius: 10px;
 }
 
 /*
@@ -250,10 +431,22 @@ header.masthead p {
 */
 
 #portfolio {
-  background-image: url("../img/portfolio.jpg");
+  /* background-image: url("../img/portfolio.jpg"); */
+  background: #000000;
   background-position: center center;
   background-size: cover;
   /* height: 100vh; */
+}
+
+#about::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20%; 
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+  pointer-events: none; 
 }
 
 .portfolio-box {
@@ -319,66 +512,8 @@ header.masthead p {
   }
 }
 
-.text-primary {
-  color: #FF0000 !important;
-}
-
-.btn {
-  font-weight: 700;
-  border: none;
-  border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-}
-
-.btn-xl {
-  padding: 1rem 2rem;
-}
-
-.btn-primary {
-  background-color: #FF0000;
-  border: 3px solid #fff;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #FF0000;
-  background-color: #fff !important;
-  border: 3px solid #FF0000;
-}
-
-.btn-primary:active, .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
-}
-
-.btn-light {
-  background-color: #000;
-  color: #fff;
-  border: 3px solid #fff;
-}
-
-.btn-light:hover {
-  color: #000;
-  background-color: #fff;
-  border: 3px solid #000;
-}
-
-.btn-github {
-  background-color: #0066ff;
-  color: #fff;
-  border: 3px solid #fff;
-}
-
-.btn-github:hover {
-  color: #0066ff;
-  background-color: #fff;
-  border: 3px solid #0066ff;
-}
-
-.modal-header, .modal-body, .modal-footer {
-  background-color: #E6E6E6;
-}
-
-.intro-video {
-  width: 560px;
-  height: 345px
+@media (max-width: 767px) {
+  .background-text {
+    display: none; /* Hide on small devices */
+  }
 }
