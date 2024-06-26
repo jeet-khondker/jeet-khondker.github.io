@@ -200,7 +200,7 @@ img::-moz-selection {
 
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  background-color: #FFFFFF;
   font-family: "Noto Sans JP", "游ゴシック Medium", 游ゴシック体, "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -209,7 +209,7 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #FF0000;
+  color: #000000;
   font-family: "Noto Sans JP", "游ゴシック Medium", 游ゴシック体, "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
 }
 
